@@ -1,0 +1,10 @@
+public class flrdivtwonumersfunctions {
+    public static int div(double a,double b){
+        return (int)(a/b);
+    }
+    public static void main(String[] args) {
+        double n1=10;
+        double n2=3.5;
+        System.out.println("flrdiv two numbers ="+div(n1, n2));
+    }
+}
