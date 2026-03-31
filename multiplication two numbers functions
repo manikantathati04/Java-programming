@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class multiplicationtwonumbersfunctions {
+    public static int multi(int a,int b){
+        return a*b;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the first number:");
+        int n1=sc.nextInt();
+        System.out.print("enter the second number:");
+        int n2=sc.nextInt();
+        System.out.println("multiplication two numbers ="+multi(n1, n2));
+        sc.close();
+    }
+}
