@@ -1,0 +1,11 @@
+public class divtwonumbersfunctions {
+    public static double div(double a,double b){
+        return a/b;
+    }
+    public static void main(String[] args) {
+        double n1=10;
+        double n2=3.5;
+        double n3=div(n1, n2);
+        System.out.println("div two numbers ="+n3);
+    }
+}
