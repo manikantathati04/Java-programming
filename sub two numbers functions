@@ -1,0 +1,11 @@
+public class subtwonumbersfunctions {
+    public static int sub(int a,int b){
+        return a-b;
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=2;
+        int n3=sub(n1, n2);
+        System.out.println("sub two numbers ="+n3);
+    }
+}
