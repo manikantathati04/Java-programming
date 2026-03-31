@@ -1,0 +1,11 @@
+public class addtwonumbersfunctions{
+    public static int sum(int a,int b){
+        return a+b;
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=2;
+        int n3=sum(n1, n2);
+        System.out.println("add two numbers ="+n3);
+    }
+}
