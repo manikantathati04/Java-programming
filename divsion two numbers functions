@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class divisiontwonumbersfunctions {
+    public static void div(double n1,double n2){
+        if(n2==0){
+            System.out.println("error!division not possible");
+        }else{
+            double n3=n1/n2;
+            System.out.println("division two numbers ="+n3);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first number:");
+        double a=sc.nextDouble();
+        System.out.println("enter the second number:");
+        double b=sc.nextDouble();
+        div(a, b);
+        sc.close();
+    }
+}
