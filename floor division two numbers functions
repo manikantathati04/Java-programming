@@ -1,0 +1,22 @@
+import java.util.Scanner;
+import javax.sound.midi.SysexMessage;
+public class floordivisiontwonumbersfunctions {
+    public static void flrdiv(double n1,double n2){
+        if(n2==0){
+            System.out.println("error!floor division not possible");
+        }
+        else{
+            int floor=(int)(n1/n2);
+            System.out.println("floor division two numbers ="+floor);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter the first number:");
+        double n1=sc.nextDouble();
+        System.out.print("enter the second number:");
+        double n2=sc.nextDouble();
+        flrdiv(n1, n2);
+        sc.close();
+    }
+}
