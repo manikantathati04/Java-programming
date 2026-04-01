@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class quotientremainderfunctions {
+    public static void quorem(double n1,double n2){
+        if(n2==0){
+            System.out.println("error! quotient and remainder not possible");
+        }else{
+            double quo=n1/n2;
+            int rem=(int)(n1%n2);
+            System.out.println("quotient ="+quo);
+            System.out.println("remainder ="+rem);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the dividend value:");
+        double dividend=sc.nextDouble();
+        System.out.println("enter the divisor value:");
+        double divisor=sc.nextDouble();
+        quorem(dividend,divisor);
+        sc.close();
+    }
+}
