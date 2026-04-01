@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class swaptwotempfunctions {
+    public static void swap(int n1,int n2){
+        int temp=n1;
+        n1=n2;
+        n2=temp;
+        System.out.println("after swapping first number ="+n1);
+        System.out.println("after swapping second number ="+n2);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the first number:");
+        int n1=sc.nextInt();
+        System.out.println("enter the second number:");
+        int n2=sc.nextInt();
+        System.out.println("before swapping first number ="+n1);
+        System.out.println("before swapping second number ="+n2);
+        swap(n1, n2);
+        sc.close();
+    }
+}
